@@ -1,0 +1,173 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+input {
+  border: 0px solid;
+  height: 2em;
+}
+
+.submit {
+  margin-top: 0.5em;
+  color: #999;
+  padding: 0;
+  height: 3em;
+}
+
+label {
+  width: 100%;
+  display: block;
+  text-align: left;
+  color: #d1d1d1;
+  font-size: 2em;
+  padding-top: 0.4em;
+}
+
+
+li {
+  font-size: 1.4em;
+  color: #d1d1d1;
+  text-align: left;
+  list-style-type: none;
+}
+/*user & admin containers*/
+
+.container {
+  max-width: 30em;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 0;
+  text-align: center;
+}
+
+.container input {
+  width: 100%;
+  background-color: #eee;
+  line-height: 2em;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 0.4em;
+}
+
+.container label {
+  background-color: #fff;
+}
+
+
+.container a {
+  color: #d1d1d1;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 7em;
+  color: #d1d1d1;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: right;
+  padding-right: 0.4em;
+  color: #d1d1d1;
+  margin: 0;
+}
+
+h3 {
+  font-size: 4em;
+  text-align: left;
+  padding-right: 0.4em;
+  color: #d1d1d1;
+  margin: 0;
+}
+
+/*landing wrapper*/
+
+#landing-wrapper {
+  max-width: 20em;
+  margin: 0 auto;
+  margin-top: 1em;
+  /*background-color: #eee;*/
+}
+
+/*landing footer*/
+
+#landing-footer {
+  color: #999;
+  font-size: 0.3em;
+}
+
+#landing-footer a {
+  color: #999;
+  text-decoration: underline;
+}
+
+#landing-footer a:hover {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#landing-footer a:visited {
+  color: #999;
+  text-decoration: underline;
+}
+
+/*container for links to display inline*/
+
+.landing-footer-link {
+  display: inline;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+/* landing form */
+
+.landing-form {
+  display: block;
+}
+
+#login-form {
+  text-align: right;
+  color: #999;
+  font-size: 0.4em;
+}
+
+.landing-form-input {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  text-align:center;
+  background-color: #eee;
+}
+
+
+/*questionnaire rows*/
+.questionnaire-row {
+  text-align: left;
+  color: #eee;
+  padding-left: 0.2em;
+  background-color: #fff;
+}
+
+.questionnaire-row a {
+  text-decoration: none;
+  color: #d1d1d1;
+}
+
+.questionnaire-row a:hover {
+  text-decoration: underline;
+}
+
+.questionnaire-row a:visited {
+  text-decoration: none;
+}
